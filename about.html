@@ -3,32 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
+        <title>About</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
+
     <body>
-        <header>
-            <h1>MI 349 Blog</h1>
-            <h2>By Evan Fioritto</h2>
-        </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
-
-        <img alt="Headshot" src="./headshot.jpg">
-
-        <h2>About Me</h2>
-        <p>Hello! My name is Evan Fioritto</p>
-        <h2>Some Details</h2>
-        <ul>
-            <li>Senior at Michigan State University</li>
-            <li>Incoming iOS Developer at Walmart Global Tech</li>
-            <li>Guitarist</li>
-            <li>Retro Game Collector</li>
-        </ul>
-        
-        <h2>Want to Learn More?</h2>
-        <p>Feel Free to Contact Me!</p>
+        <div class = "sticky-navbar">
+            <header>
+                <h1>MI 349 Blog</h1>
+                <h2>By Evan Fioritto</h2>
+            </header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="headshot-container">
+            <img alt="Headshot" src="./headshot.jpg">
+            <p>Photo courtesy of Grizzhacks 6</p>
+        </div>
+        <div class = "content">
+            
+            <h2>About Me</h2>
+            <div class="about-me">
+                <p>Hello! My name is Evan Fioritto</p>
+            </div>
+            <h2>Some Details</h2>
+            <div class="some-details">
+                <ul>
+                    <li>Senior at Michigan State University</li>
+                    <li>Incoming iOS Developer at Walmart Global Tech</li>
+                    <li>Guitarist</li>
+                    <li>Retro Game Collector</li>
+                </ul>
+            </div>
+            
+            <h2>Want to Learn More?</h2>
+            <div class="learn-more">
+                <p>Feel Free to Contact Me!</p>
+            </div>
+        </div>
     </body>
 </html>

@@ -4,89 +4,99 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <header>
-            <h1>MI 349 Blog</h1>
-            <h2>By Evan Fioritto</h2>
-        </header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class = "sticky-navbar">
+            <header>
+                <h1>MI 349 Blog</h1>
+                <h2>By Evan Fioritto</h2>
+            </header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
 
-        <h1>Recent Posts</h1>
-        <section>
-            <h2>Trying to Finish a Video Game</h2>
-            <time datetime="2025-09-24">9/24/2025</time>
-            <address>Evan Fioritto</address>
-            <img style="width:100px" src="./hollowknight.webp" alt="Hollow Knight">
-            <p>
-                As I mentioned on my about page, I collect retro games. But collecting them and actually playing them are two very different 
-                things. Over the years, I’ve built up a decent library of titles, many of which I’ve started but never finished. Some I haven’t
-                 even touched. Recently, I decided to put a stop to that cycle by making a rule for myself: no buying new games until I’ve made 
-                 serious progress on the ones already in my backlog.
-                The problem is, I don’t exactly make it easy on myself. Most of the games I choose to play fall into two categories: 
-                long RPGs or brutally difficult titles. Sometimes, they’re both. An RPG can easily eat up dozens of hours, while a tough
-                 platformer or action game will have me repeating the same section over and over until I finally get it right.
-                  That combination makes it really hard to stay consistent, and more than once I’ve put a game down for “a short break” that 
-                  ends up lasting months.
-                Still, when I do manage to push through and finish one, it feels amazing. 
-                Beating a game that challenged me for weeks, or even months, makes it all worth it.
-            </p>
+        <div class = "content">
+            <h1>Recent Posts</h1>
+            <div class = "flex-container">
+                <section class = "card">
+                    <div class="card-header">
+                        <h2>Trying to Finish a Video Game</h2>
+                        <time datetime="2025-09-24">9/24/2025</time>
+                        <address>Evan Fioritto</address>
+                    </div>  
+                    <img class = "post-image" src="./hollowknight.webp" alt="Hollow Knight">
+                    <p>
+                        As I mentioned on my about page, I collect retro games. But collecting them and actually playing them are two very different 
+                        things. Over the years, I’ve built up a decent library of titles, many of which I’ve started but never finished. Some I haven’t
+                        even touched. Recently, I decided to put a stop to that cycle by making a rule for myself: no buying new games until I’ve made 
+                        serious progress on the ones already in my backlog.
+                        The problem is, I don’t exactly make it easy on myself. Most of the games I choose to play fall into two categories: 
+                        long RPGs or brutally difficult titles. Sometimes, they’re both. An RPG can easily eat up dozens of hours, while a tough
+                        platformer or action game will have me repeating the same section over and over until I finally get it right.
+                        That combination makes it really hard to stay consistent, and more than once I’ve put a game down for “a short break” that 
+                        ends up lasting months.
+                        Still, when I do manage to push through and finish one, it feels amazing. 
+                        Beating a game that challenged me for weeks, or even months, makes it all worth it.
+                    </p>
 
-            <h2>Currently Playing</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Game Name</th>
-                        <th>% Complete</th>
-                        <th>Genre</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Hollow Knight</td>
-                        <td>40</td>
-                        <td>Metroidvania</td>
-                    </tr>
-                    <tr>
-                        <td>Final Fantasy VII</td>
-                        <td>90</td>
-                        <td>JRPG</td>
-                    </tr>
-                    <tr>
-                        <td>Dark Souls I</td>
-                        <td>33</td>
-                        <td>RPG</td>
-                    </tr>
-                </tbody> 
-            </table>
-        </section>
+                    <h2>Currently Playing</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Game Name</th>
+                                <th>% Complete</th>
+                                <th>Genre</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Hollow Knight</td>
+                                <td>40</td>
+                                <td>Metroidvania</td>
+                            </tr>
+                            <tr>
+                                <td>Final Fantasy VII</td>
+                                <td>90</td>
+                                <td>JRPG</td>
+                            </tr>
+                            <tr>
+                                <td>Dark Souls I</td>
+                                <td>33</td>
+                                <td>RPG</td>
+                            </tr>
+                        </tbody> 
+                    </table>
+                </section>
 
-        <section>
-            <h2>Tips for Living with a Cat with Roomates</h2>
-            <time datetime="2025-09-23">9/23/2025</time>
-            <address>Evan Fioritto</address>
-            <img style="width:100px" src="./glooby.jpg" alt="A picture of my cat Glooby">
-            <p>
-                I’ve recently been thinking about bringing my cat up to my apartment here at Michigan State. His name is Glooby, 
-                and he’s a five-year-old tuxedo cat who has been part of my life for quite a while now. Glooby isn’t just an ordinary
-                pet. He has a personality that makes him stand out in the best way. He’s sassy, stubborn, and always makes his opinions known.
-                If something isn’t going his way, he’ll flick his tail dramatically or let out a sharp meow that sounds almost like he’s yelling at me.
-                At the same time, he has a softer side. He’ll curl up on my lap when I’m studying late into the night, or paw at my hand when he feels like I should be giving him more attention instead of focusing on my laptop.
-                Deciding to bring him here feels like a pretty big step, but it’s also really exciting. I know Glooby would make my apartment feel more like home and bring some comfort during stressful weeks of classes and exams.
-                Taking care of him will definitely add some responsibility on top of everything else I already have going on, but I honestly think the companionship and joy he’d bring would make my time at MSU much better.
-            </p>
-        </section>
-
-        <form name="subscribe" method="POST" data-netlify="true" netlify>
-            <h2>Subscribe for more!</h2>
-            <input type="hidden" name="form-name" value="subscribe">
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-            <button type="submit">Subscribe</button>
-        </form>
+                <section class = "card">
+                    <div class="card-header">
+                        <h2>Tips for Living with a Cat with Roomates</h2>
+                        <time datetime="2025-09-23">9/23/2025</time>
+                        <address>Evan Fioritto</address>
+                    </div>
+                    <img class="post-image" src="./glooby.jpg" alt="A picture of my cat Glooby">
+                    <p>
+                        I’ve recently been thinking about bringing my cat up to my apartment here at Michigan State. His name is Glooby, 
+                        and he’s a five-year-old tuxedo cat who has been part of my life for quite a while now. Glooby isn’t just an ordinary
+                        pet. He has a personality that makes him stand out in the best way. He’s sassy, stubborn, and always makes his opinions known.
+                        If something isn’t going his way, he’ll flick his tail dramatically or let out a sharp meow that sounds almost like he’s yelling at me.
+                        At the same time, he has a softer side. He’ll curl up on my lap when I’m studying late into the night, or paw at my hand when he feels like I should be giving him more attention instead of focusing on my laptop.
+                        Deciding to bring him here feels like a pretty big step, but it’s also really exciting. I know Glooby would make my apartment feel more like home and bring some comfort during stressful weeks of classes and exams.
+                        Taking care of him will definitely add some responsibility on top of everything else I already have going on, but I honestly think the companionship and joy he’d bring would make my time at MSU much better.
+                    </p>
+                </section>
+            </div>
+            <form name="subscribe" method="POST" data-netlify="true" netlify>
+                <h2>Subscribe for more!</h2>
+                <input type="hidden" name="form-name" value="subscribe">
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
     </body>
 </html>
